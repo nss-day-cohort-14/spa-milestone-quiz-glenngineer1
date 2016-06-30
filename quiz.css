@@ -37,6 +37,7 @@ h2 {
 .card {
   border-width: 2px;
   border-style: solid;
+  padding: 10px;
 }
 
 .lightyellow {
@@ -45,3 +46,11 @@ h2 {
   background-color: lightgreen;
 }
 
+#text-input {
+  width: 95%;
+  display: inline-block;
+}
+
+.button {
+  margin-top: 10px;
+}

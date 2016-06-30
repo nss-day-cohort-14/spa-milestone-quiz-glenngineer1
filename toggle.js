@@ -4,11 +4,11 @@ var CarLot = (function(toggle) {
 
   var userInput = document.getElementById("text-input");
   var thisCard;
-  toggle.toggleCard = function(event, lightyellow) {
+  toggle.toggleCard = function(event, darkgrey) {
     thisCard = event.currentTarget;
     toggle.toggleReset();
     if (thisCard.tagName.toLowerCase() === "div") {
-      thisCard.classList.toggle("lightyellow");
+      thisCard.classList.toggle("darkgrey");
       userInput.value = "";
       userInput.focus();
       return thisCard;
@@ -23,7 +23,7 @@ var CarLot = (function(toggle) {
   toggle.toggleReset = function() {
     var clearCard = document.getElementsByClassName("card");
     for (var i = 0; i < clearCard.length; i++) {
-      clearCard[i].classList.remove("lightyellow");
+      clearCard[i].classList.remove("darkgrey");
     }
   }
 

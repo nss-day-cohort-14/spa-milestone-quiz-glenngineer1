@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-  background-color: #AF4849;
+  background-color: #D45759;
 }
 
 .card-container {
@@ -16,8 +16,11 @@ nav {
 }
 
 h2 {
-  padding: 20px;
+  padding: 50px;
   text-align: center;
+  font-style: italic;
+  color: #A94534;
+  font-size: 4em;
 }
 
 .input-group {
@@ -35,17 +38,14 @@ h2 {
 }
 
 .card {
-  border-width: 2px;
-  border-style: solid;
+  border: 4px solid;
   padding: 10px;
-  font-size: 1.2em;
-  color: #EEF1C4;
+  font-size: 1.3em;
 }
 
-.lightyellow {
-  border-width: 12px;
-  border-style: solid;
-  background-color: lightyellow;
+.darkgrey {
+  border: 15px solid;
+  background-color: darkgrey;
 }
 
 #text-input {
@@ -56,3 +56,20 @@ h2 {
 .button {
   margin-top: 10px;
 }
+
+.mainInfo {
+  color: black;
+}
+
+.carPrice {
+  color: red;
+}
+
+.carColor {
+  color: blue;
+}
+
+.carDescription {
+  color:#006A00;
+}
+

@@ -4,16 +4,16 @@
       "make": "Nissan",
       "model": "Rogue",
       "year": "2006",
-      "price": "8999",
+      "price": "8,999",
       "color": "FireBrick",
       "purchased": false,
       "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     },
     {
       "make": "Toyota",
-      "model": "Camry",
+      "model": "Camry LE",
       "year": "2003",
-      "price": "2999",
+      "price": "2,999",
       "color": "Green",
       "purchased": false,
       "description": "The Toyota Camry has been a fan favorite of families for years. Known for its reliability, this baby will get you to and from where you want to go."
@@ -22,10 +22,37 @@
       "make": "Honda",
       "model": "Odyssey",
       "year": "2009",
-      "price": "12999",
+      "price": "12,999",
       "color": "Blue",
       "purchased": false,
       "description": "Honda Odysseys are wonderful vans for families. They're spacious and this one even has a DVD player in the back for the kids."
+    },
+    {
+      "make": "Porsche",
+      "model": "944 Turbo",
+      "year": "2005",
+      "price": "22,999",
+      "color": "Black",
+      "purchased": false,
+      "description": "The Porsche 944 is every guys dream car. Come in for a test drive. This low mileage vehicle will leave you breathless and wanting to take it home."
+    },
+    {
+      "make": "Acura",
+      "model": "NSX",
+      "year": "2002",
+      "price": "17,999",
+      "color": "Silver",
+      "purchased": false,
+      "description": "Want a fast car? Come in and take this Acura NSX out for a test spin. This car drives like a dream. It's everything a sports car should be and then some. Perfect for mid-life crisis."
+    },
+    {
+      "make": "Ferrari",
+      "model": "308",
+      "year": "1998",
+      "price": "54,999",
+      "color": "Yellow",
+      "purchased": false,
+      "description": "This one of a kind Ferrari 308 is fast and purrs like a kitten. Want a car to show off to your friends, this is it. Come down and drive off in this gorgeous piece of machinery."
     }
   ]
 }

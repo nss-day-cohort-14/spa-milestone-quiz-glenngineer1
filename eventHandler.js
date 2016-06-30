@@ -1,7 +1,7 @@
 // Event Handlers for toggle functions and description changes
 
 var CarLot = (function(oldCarLot) {
-  var cardClick = document.getElementById("card");
+  var cardClick = document.getElementsByClassName("card");
   var userInput = document.getElementById("text-input");
 
   oldCarLot.activateEvents = function() {

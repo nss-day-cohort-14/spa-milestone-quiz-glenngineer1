@@ -38,12 +38,14 @@ h2 {
   border-width: 2px;
   border-style: solid;
   padding: 10px;
+  font-size: 1.2em;
+  color: #EEF1C4;
 }
 
 .lightyellow {
   border-width: 12px;
   border-style: solid;
-  background-color: lightgreen;
+  background-color: lightyellow;
 }
 
 #text-input {

@@ -8,7 +8,7 @@ var CarLot = (function(toggle) {
     thisCard = event.currentTarget;
     toggle.toggleReset();
     if (thisCard.tagName.toLowerCase() === "div") {
-      thisCard.classlist.toggle("lightyellow");
+      thisCard.classList.toggle("lightyellow");
       userInput.value = "";
       userInput.focus();
       return thisCard;
@@ -23,7 +23,7 @@ var CarLot = (function(toggle) {
   toggle.toggleReset = function() {
     var clearCard = document.getElementsByClassName("card");
     for (var i = 0; i < clearCard.length; i++) {
-      clearCard[i].classlist.remove("lightyellow");
+      clearCard[i].classList.remove("lightyellow");
     }
   }
 

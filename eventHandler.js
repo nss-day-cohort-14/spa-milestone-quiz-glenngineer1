@@ -5,12 +5,19 @@ var CarLot = (function(oldCarLot) {
   var userInput = document.getElementById("text-input");
 
   oldCarLot.activateEvents = function() {
+
     for (var i = 0; i < cardClick.length; i++) {
       cardClick[i].addEventListener("click", CarLot.toggleCard);
     }
     userInput.addEventListener("keyup", CarLot.changeDescription);
-  };
+    };
 
   return oldCarLot;
 
 })(CarLot || {});
+
+
+
+
+
+

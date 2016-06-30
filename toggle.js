@@ -15,7 +15,7 @@ var CarLot = (function(toggle) {
       return userInput;
     }
   }
-  toggle.changeDescription = function() {
+  toggle.changeDescription = function(event) {
     if (userInput.length !== 0) {
       thisCard.lastElementChild.innerHTML = "Description: " + userInput.value;
     }

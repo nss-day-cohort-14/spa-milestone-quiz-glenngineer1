@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  background-color: #C6B245;
+}
+
+nav {
+  background-color: #AF4849;
+}
+
+.card-container {
+  width: 100%;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.input-group {
+  padding: 15px;
+}
+
+.row {
+  display: table;
+}
+
+[class*="col-"] {
+  vertical-align: top;
+  display: table-cell;
+  float: none;
+}
+
+.card {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.lightyellow {
+  border-width: 12px;
+  border-style: solid;
+  background-color: lightyellow;
+}
+

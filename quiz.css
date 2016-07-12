@@ -71,5 +71,8 @@ h2 {
 
 .carDescription {
   color:#006A00;
+  overflow: auto;
+  width: 100%;
+  height: 125px;
 }
 
